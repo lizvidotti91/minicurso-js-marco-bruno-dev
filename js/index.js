@@ -1,13 +1,15 @@
 const root = window.document.querySelector('#root');
-const title = '<h1>Dificuldade</h1>';
+const textTitle = 'Dificuldade';
+const smallContent = 'Animação usando JavaScript puro';
 
-root.innerHTML = title;
+// Tagged Template String
+const title = Title`
+    ${textTitle};
+    ${smallContent};
+    color: purple;
+    font-family: monospace;
+    margin: 5px;
+    text-align: center;
+`
 
-/*
-function newElement(tag,content){
-    const title = `<${tag}> ${content} <${tag}>`;
-    root.insertAdjacentHTML('beforeend',title);
-}
-
-newElement('h1','Dificuldade');
-*/
+root.insertAdjacentHTML('beforeend',title);
