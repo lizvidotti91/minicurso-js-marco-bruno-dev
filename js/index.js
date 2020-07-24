@@ -1,4 +1,6 @@
 const root = window.document.querySelector('#root');
+const icon = window.document.querySelector('.icon');
+
 const textTitle = 'Dificuldade';
 const smallContent = 'Animação usando JavaScript puro';
 
