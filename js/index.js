@@ -6,10 +6,10 @@ const smallContent = 'Animação usando JavaScript puro';
 const title = Title`
     ${textTitle};
     ${smallContent};
-    color: purple;
-    font-family: monospace;
-    margin: 5px;
-    text-align: center;
+    color: #FDFDFF;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.3rem;
+    letter-spacing: 2.5px;
 `
 
 root.insertAdjacentHTML('beforeend',title);
