@@ -1,7 +1,7 @@
 const root = window.document.querySelector('#root');
 
 const textTitle = 'Dificuldade';
-const smallContent = 'Animação usando JavaScript puro';
+const smallContent = 'Mini-curso feliz de JavaScript';
 
 // Tagged Template String
 const title = Title`
@@ -16,3 +16,4 @@ const title = Title`
 
 root.insertAdjacentHTML('beforeend',title);
 root.insertAdjacentHTML('beforeend',box);
+root.insertAdjacentHTML('beforeend',slide);

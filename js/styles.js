@@ -2,6 +2,7 @@ const style = `
     <style>
         *{
             border: none;
+            list-style: none;
             margin: 0;
             padding: 0;
         }
