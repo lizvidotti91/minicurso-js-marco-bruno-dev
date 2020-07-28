@@ -8,12 +8,12 @@ O sapinho foi feito com o software Inkscape, e exportado no formato SVG.
 Esta animação foi feita usando JavaScript puro, para gerar os elementos HTML e CSS dinamicamente, na página HTML.
 
 
-_Result of the Happy JavaScript Mini-course, taught by Marco Bruno, through his Twitch channel.
+*Result of the Happy JavaScript Mini-course, taught by Marco Bruno, through his Twitch channel.*
 
-As a challenge launched by Marco Bruno, at the end of the mini-course, I added the names "Easy, Medium and Difficult", and made an animation with a figure of the frog, according to the clicks of the buttons on the screen.
+*As a challenge launched by Marco Bruno, at the end of the mini-course, I added the names "Easy, Medium and Difficult", and made an animation with a figure of the frog, according to the clicks of the buttons on the screen*.
 
-The frog was made with Inkscape software and exported in SVG format.
-This animation was made using pure JavaScript, to generate the HTML and CSS elements dynamically, in the HTML page._
+*The frog was made with Inkscape software and exported in SVG format.
+This animation was made using pure JavaScript, to generate the HTML and CSS elements dynamically, in the HTML page.*
 
 **Tecnologias || Technologies:** JavaScript
 
