@@ -29,6 +29,12 @@ const character = Character`
         height: 30vh;
         width: 30vh;
     }
+    @media (max-width: 750px){
+        .character{
+            height: 15vh;
+            width: 15vh;
+        }
+    }
     ${img};
 `
 
