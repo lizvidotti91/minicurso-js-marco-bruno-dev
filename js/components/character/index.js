@@ -36,5 +36,10 @@ const box = Box`
     .box{
         display: flex;
     }
+    @media (max-width: 750px){
+        .box{
+            flex-direction:column;
+        }
+    }
     ${character};
 `
