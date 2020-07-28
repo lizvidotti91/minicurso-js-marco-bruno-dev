@@ -1,26 +1,40 @@
-const img = './img/image.svg'; 
+const img = './img/image.svg';
 
-function Character(css,value){
-    return `
-        <img src = "${img}" style = "${css}">
+function createStyle(css){
+    const head = window.document.querySelector('head');
+    const style = `
+        <style>
+            ${css};
+        </style>
     `
+    head.insertAdjacentHTML('beforeend',style);
+}
+
+const Character = (css,value) => {
+    createStyle(css);
+    return(
+        `<img class = "character" src = "${img}">`
+    )
+}
+
+const Box = (css,content) => {
+    createStyle(css);
+    return(
+        `<div class = "box"> ${content} </div>`
+    )
 }
 
 const character = Character`
+    .character{
+        height: 30vh;
+        width: 30vh;
+    }
     ${img};
-    height: 30vh;
-    width: 30vh;
 `
 
-function Box(css,children){
-    return `
-        <div class = "${css}">
-            ${children};
-        </div>
-    `
-}
-
 const box = Box`
-    ${character + character + character};
-    display: flex;
+    .box{
+        display: flex;
+    }
+    ${character};
 `
